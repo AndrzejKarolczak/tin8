@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1><%= title %></h1>
+
+<div>
+    <table class="dynamic-table">
+        <thead class="dynamic-table-header">
+        <tr>
+            <th>Atrybuty</th>
+        </tr>
+        </thead>
+        <tbody class="dynamic-table-body">
+
+        <% for(var x in object) { %>
+            <tr>
+                <td><%= x %></td>
+
+            </tr>
+        <% } %>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.dynamic-table {
+  margin-top: 50px;
+  border: 1px solid black;
+}
+
+.dynamic-table-header {
+  border: 1px solid darkblue; font-weight: bolder;
+  color: darkblue;
+  padding: 10px;
+  word-spacing: 1px;
+  background-color: lightpink;
+  word-wrap: break-word;
+}
+
+.dynamic-table-body {
+  border: 1px solid black;
+  text-align: right;
+  background-color:lightblue;
+  padding: 10px;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1><%= title %></h1>
+<form method="post" id="input-form">
+    <label for="quote-date">Data kwotowania</label>
+    <input type="date" id="quote-date" name="quote-date"/>
+    <label for="quote-value">Wartość kwotowania</label>
+    <input type="number" step="any" min="0.0001" id="quote-value" name="quote-value"/>
+    <input type="submit" value="Dodaj"/>
+    <p><%= message%></p>
+    <a href="quotes">Sprawdź kwotowania</a>
+</form>
+</body>
+</html>
